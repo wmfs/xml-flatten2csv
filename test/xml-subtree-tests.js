@@ -53,7 +53,7 @@ describe('xml-subtree-processor', () => {
       })
 
       expect(tree).to.exist()
-      expect(tree).to.eql({'#text': 'Hello'})
+      expect(tree).to.eql({ '#text': 'Hello' })
     })
 
     it('extract subtrees with text', async () => {
@@ -67,7 +67,7 @@ describe('xml-subtree-processor', () => {
       })
 
       expect(tree).to.exist()
-      expect(tree).to.eql([{'#text': 'Hello'}, {'#text': 'World!'}])
+      expect(tree).to.eql([{ '#text': 'Hello' }, { '#text': 'World!' }])
     })
 
     it('extract subtree with nested elements', async () => {
@@ -83,8 +83,8 @@ describe('xml-subtree-processor', () => {
       expect(tree).to.exist()
       expect(tree).to.eql({
         line: [
-          {lineItem: [{'#text': 'Hello'}]},
-          {lineItem: [{'#text': 'World!'}]}
+          { lineItem: [{ '#text': 'Hello' }] },
+          { lineItem: [{ '#text': 'World!' }] }
         ]
       })
     })
@@ -106,7 +106,7 @@ describe('xml-subtree-processor', () => {
 
       expect(tree).to.exist()
       expect(tree).to.eql({
-        line: [{'#text': 'Hello'}, {'#text': 'World!'}]
+        line: [{ '#text': 'Hello' }, { '#text': 'World!' }]
       })
     })
 
@@ -122,7 +122,7 @@ describe('xml-subtree-processor', () => {
 
       expect(tree).to.exist()
       expect(tree).to.eql({
-        line: [{'#text': 'Hello ', strong: [{'#text': 'World!'}]}]
+        line: [{ '#text': 'Hello ', strong: [{ '#text': 'World!' }] }]
       })
     })
   })
@@ -138,7 +138,7 @@ describe('xml-subtree-processor', () => {
 
       expect(tree).to.exist()
       expect(tree).to.eql({
-        'a:line': [{'#text': 'Hello ', strong: [{'#text': 'World!'}]}]
+        'a:line': [{ '#text': 'Hello ', strong: [{ '#text': 'World!' }] }]
       })
     })
 
@@ -153,7 +153,7 @@ describe('xml-subtree-processor', () => {
 
       expect(tree).to.exist()
       expect(tree).to.eql({
-        line: [{'#text': 'Hello ', strong: [{'#text': 'World!'}]}]
+        line: [{ '#text': 'Hello ', strong: [{ '#text': 'World!' }] }]
       })
     })
 
@@ -168,7 +168,7 @@ describe('xml-subtree-processor', () => {
 
       expect(tree).to.exist()
       expect(tree).to.eql({
-        a__line: [{'#text': 'Hello ', b__strong: [{'#text': 'World!'}]}]
+        a__line: [{ '#text': 'Hello ', b__strong: [{ '#text': 'World!' }] }]
       })
     })
   })
@@ -184,7 +184,7 @@ describe('xml-subtree-processor', () => {
 
       expect(tree).to.exist()
       expect(tree).to.eql({
-        line: [{'#text': 'Hello ', strong: [{'#text': 'World!'}]}]
+        line: [{ '#text': 'Hello ', strong: [{ '#text': 'World!' }] }]
       })
     })
 
@@ -199,7 +199,7 @@ describe('xml-subtree-processor', () => {
 
       expect(tree).to.exist()
       expect(tree).to.eql({
-        en: [{line: [{'#text': 'Hello ', strong: [{'#text': 'World!'}]}]}]
+        en: [{ line: [{ '#text': 'Hello ', strong: [{ '#text': 'World!' }] }] }]
       })
     })
 
@@ -214,7 +214,7 @@ describe('xml-subtree-processor', () => {
 
       expect(tree).to.exist()
       expect(tree).to.eql({
-        line: [{'en': [{'#text': 'Hello ', strong: [{'#text': 'World!'}]}]}]
+        line: [{ 'en': [{ '#text': 'Hello ', strong: [{ '#text': 'World!' }] }] }]
       })
     })
 
@@ -230,8 +230,8 @@ describe('xml-subtree-processor', () => {
       expect(tree).to.exist()
       expect(tree).to.eql({
         line: [
-          {'en': [{'#text': 'Hello ', strong: [{'#text': 'World!'}]}]},
-          {'fr': [{'#text': 'Bonjour ', strong: [{'#text': 'tout le monde!'}]}]}
+          { 'en': [{ '#text': 'Hello ', strong: [{ '#text': 'World!' }] }] },
+          { 'fr': [{ '#text': 'Bonjour ', strong: [{ '#text': 'tout le monde!' }] }] }
         ]
       })
     })

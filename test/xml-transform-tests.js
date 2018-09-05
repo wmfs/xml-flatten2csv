@@ -64,7 +64,7 @@ const conditionalSourceMapping = [
   '@.title',
   '$.missing',
   '@.description',
-  {test: '@.description=="Pomelo"', value: 'LOVE IT'},
+  { test: '@.description=="Pomelo"', value: 'LOVE IT' },
   '$.price'
 ]
 
@@ -79,7 +79,7 @@ const conditionalLangSourceMapping = [
   '@.title..en',
   '$.missing',
   '@.description..en',
-  {test: '@.description.en=="Pomelo"', value: 'LOVE IT'},
+  { test: '@.description.en=="Pomelo"', value: 'LOVE IT' },
   '$.price'
 ]
 
