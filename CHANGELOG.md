@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.1.0...v1.2.0) (2019-03-13)
+
+
+### ✨ Features
+
+* Use annotation in headerMap for required fields ([e655b15](https://github.com/wmfs/xml-flatten2csv/commit/e655b15))
+
 # [1.1.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.0.1...v1.1.0) (2019-03-13)
 
 
