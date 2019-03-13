@@ -55,27 +55,74 @@ describe('xmlFlatten2csv', () => {
   describe('extract XML', () => {
     for (const [title, filename, headerMap, transformFn] of tests) {
       it(title, async () => {
-        const sourceFile = path.resolve(__dirname, 'fixtures', 'simpsons.xml')
-        const outputFile = path.resolve(__dirname, 'output', filename)
-        const expectedFile = path.resolve(__dirname, 'expected', filename)
-
-        if (fs.existsSync(outputFile)) fs.unlinkSync(outputFile)
-
-        await xmlFlatten2csv({
-          xmlPath: sourceFile,
-          csvPath: outputFile,
-          rootXMLElement: 'Episode',
-          pivotPath: '$.People.Person',
-          headerMap: headerMap,
-          transform: transformFn
-        })
-
-        const output = fs.readFileSync(outputFile, { encoding: 'utf8' }).split('\n').map(s => s.trim())
-        const expected = fs.readFileSync(expectedFile, { encoding: 'utf8' }).split('\n').map(s => s.trim())
-
-        expect(output).to.eql(expected)
+        await test(
+          'simpsons.xml',
+          filename,
+          'Episode',
+          '$.People.Person',
+          headerMap,
+          transformFn
+        )
       })
     }
+
+    it('gml extract', async () => {
+      const root = 'Street'
+      const pivot = '$..StreetDescriptiveIdentifier'
+      const headerMap = [
+        ['$.usrn', 'usrn', 'number'],
+        ['$.changeType', 'changeType', 'string'],
+        ['$.state', 'state', 'number'],
+        ['$.stateDate', 'state_date', 'date'],
+        ['@.streetDescription.en', 'description', 'string', 'required'],
+        ['@.locality.en', 'locality','string', 'required'],
+        ['@.townName.en', 'town_name', 'string', 'required'],
+        ['@.administrativeArea.en', 'administrative_area','string'],
+      ]
+
+      await test(
+        'ST2065.gml',
+        'gml-extract.csv',
+        root,
+        pivot,
+        headerMap,
+        null,
+        ['@.streetDescription.en']
+      )
+    })
+
+    async function test(
+      inputFilename,
+      outputFilename,
+      root,
+      pivot,
+      headerMap,
+      transformFn,
+      required
+    ) {
+      const sourceFile = path.resolve(__dirname, 'fixtures', inputFilename)
+      const outputFile = path.resolve(__dirname, 'output', outputFilename)
+      const expectedFile = path.resolve(__dirname, 'expected', outputFilename)
+
+      if (fs.existsSync(outputFile)) fs.unlinkSync(outputFile)
+
+      await xmlFlatten2csv({
+        xmlPath: sourceFile,
+        csvPath: outputFile,
+        rootXMLElement: root,
+        pivotPath: pivot,
+        headerMap: headerMap,
+        transform: transformFn,
+        namespace: 'strip',
+        xmllang: 'wrap',
+        required: required
+      })
+
+      const output = fs.readFileSync(outputFile, { encoding: 'utf8' }).split('\n').map(s => s.trim())
+      const expected = fs.readFileSync(expectedFile, { encoding: 'utf8' }).split('\n').map(s => s.trim())
+
+      expect(output).to.eql(expected)
+    } // test
   })
 
   describe('error cases', () => {
