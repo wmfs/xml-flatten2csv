@@ -75,9 +75,9 @@ describe('xmlFlatten2csv', () => {
         ['$.state', 'state', 'number'],
         ['$.stateDate', 'state_date', 'date'],
         ['@.streetDescription.en', 'description', 'string', 'required'],
-        ['@.locality.en', 'locality','string', 'required'],
+        ['@.locality.en', 'locality', 'string', 'required'],
         ['@.townName.en', 'town_name', 'string', 'required'],
-        ['@.administrativeArea.en', 'administrative_area','string'],
+        ['@.administrativeArea.en', 'administrative_area', 'string']
       ]
 
       await test(
@@ -91,7 +91,7 @@ describe('xmlFlatten2csv', () => {
       )
     })
 
-    async function test(
+    async function test (
       inputFilename,
       outputFilename,
       root,
