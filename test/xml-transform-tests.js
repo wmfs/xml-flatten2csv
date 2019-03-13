@@ -106,6 +106,7 @@ describe('xml-transform-to-csv', () => {
           'items',
           '$..item',
           mapping,
+          [],
           { xmllang: 'wrap' }
         ).each(fields => results.push(fields.join()))
 
@@ -126,7 +127,8 @@ describe('xml-transform-to-csv', () => {
             '$.missing',
             '@.description',
             '$.price'
-          ]
+          ],
+          []
         )
 
         try {
@@ -158,6 +160,7 @@ describe('xml-transform-to-csv', () => {
           'items',
           '$..item',
           conditionalMapping,
+          [],
           { xmllang: 'wrap' }
         ).each(fields => results.push(fields.join()))
 

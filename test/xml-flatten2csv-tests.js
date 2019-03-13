@@ -75,8 +75,8 @@ describe('xmlFlatten2csv', () => {
         ['$.state', 'state', 'number'],
         ['$.stateDate', 'state_date', 'date'],
         ['@.streetDescription.en', 'description', 'string', 'required'],
-        ['@.locality.en', 'locality', 'string', 'required'],
-        ['@.townName.en', 'town_name', 'string', 'required'],
+        ['@.locality.en', 'locality', 'string'],
+        ['@.townName.en', 'town_name', 'string'],
         ['@.administrativeArea.en', 'administrative_area', 'string']
       ]
 
@@ -85,9 +85,7 @@ describe('xmlFlatten2csv', () => {
         'gml-extract.csv',
         root,
         pivot,
-        headerMap,
-        null,
-        ['@.streetDescription.en']
+        headerMap
       )
     })
 
@@ -97,8 +95,7 @@ describe('xmlFlatten2csv', () => {
       root,
       pivot,
       headerMap,
-      transformFn,
-      required
+      transformFn
     ) {
       const sourceFile = path.resolve(__dirname, 'fixtures', inputFilename)
       const outputFile = path.resolve(__dirname, 'output', outputFilename)
@@ -114,8 +111,7 @@ describe('xmlFlatten2csv', () => {
         headerMap: headerMap,
         transform: transformFn,
         namespace: 'strip',
-        xmllang: 'wrap',
-        required: required
+        xmllang: 'wrap'
       })
 
       const output = fs.readFileSync(outputFile, { encoding: 'utf8' }).split('\n').map(s => s.trim())
