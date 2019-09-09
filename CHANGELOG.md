@@ -1,3 +1,27 @@
+# [1.3.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.2.0...v1.3.0) (2019-09-09)
+
+
+### 🛠 Builds
+
+* **deps:** update jsonpath requirement from 1.0.0 to 1.0.2 ([5670ca9](https://github.com/wmfs/xml-flatten2csv/commit/5670ca9))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([9de3444](https://github.com/wmfs/xml-flatten2csv/commit/9de3444))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([bcebbb4](https://github.com/wmfs/xml-flatten2csv/commit/bcebbb4))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([e1fed4b](https://github.com/wmfs/xml-flatten2csv/commit/e1fed4b))
+* **deps-dev:** update codecov requirement from 3.1.0 to 3.5.0 ([2136f9d](https://github.com/wmfs/xml-flatten2csv/commit/2136f9d))
+* **deps-dev:** update nyc requirement from 13.1.0 to 14.1.1 ([8ca91a4](https://github.com/wmfs/xml-flatten2csv/commit/8ca91a4))
+* **deps-dev:** update semantic-release requirement ([f03225b](https://github.com/wmfs/xml-flatten2csv/commit/f03225b))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge ([b49ed66](https://github.com/wmfs/xml-flatten2csv/commit/b49ed66))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([3269d8c](https://github.com/wmfs/xml-flatten2csv/commit/3269d8c))
+* **travis:** Remove Travis config ([667d86c](https://github.com/wmfs/xml-flatten2csv/commit/667d86c))
+
 # [1.2.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.1.0...v1.2.0) (2019-03-13)
 
 
