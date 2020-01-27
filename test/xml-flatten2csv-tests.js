@@ -14,7 +14,7 @@ describe('xmlFlatten2csv', () => {
       ['@.Age', 'age', 'integer'],
       ['@.Siblings.Sister', 'sister', 'string'],
       ['@.Siblings.Brother', 'brother', 'string']
-    ] ],
+    ]],
     ['xml to csv, with conditions', 'simpsons-conditions.csv', [
       ['$.Title', 'title', 'string'],
       ['@.Name', 'name', 'string'],
@@ -22,20 +22,20 @@ describe('xmlFlatten2csv', () => {
       [{ test: '@.Age>16', select: '@.Age' }, 'age', 'integer'],
       ['@.Siblings[?(@.Sister === "Nediana")].Sister', 'okely-dokely', 'string'],
       ['@.Siblings[?(@.Brother === "Bart")].Brother', 'eat-my-shorts', 'string']
-    ] ],
+    ]],
     ['xml to csv, with value transforms', 'simpsons-transforms.csv', [
       ['$.Title', 'title', 'string'],
       [{ select: '@.Name', transform: v => v.toUpperCase() }, 'name', 'string'],
       [{ test: '@.Age<=16', value: 'yes' }, 'child', 'string'],
       [{ test: '@.Age>16', select: '@.Age', transform: v => `${v} years old` }, 'age', 'string']
-    ] ],
+    ]],
     ['xml to csv, with top-level transform', 'simpsons-node-transforms.csv', [
       ['$.Title', 'title', 'string'],
       ['@.Name', 'name', 'string'],
       ['@.Age', 'age', 'integer'],
       ['@.Siblings.Sister', 'sister', 'string'],
       ['@.Siblings.Brother', 'brother', 'string']
-    ], testNodeTransform ]
+    ], testNodeTransform]
   ]
 
   function testNodeTransform (obj) {

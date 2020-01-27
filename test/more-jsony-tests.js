@@ -10,7 +10,7 @@ describe('make more jsony', () => {
       line: [{ '#text': 'Hello' }, { '#text': 'World!' }]
     }
     const expected = {
-      line: [ 'Hello', 'World!' ]
+      line: ['Hello', 'World!']
     }
 
     const actual = simplifyJson(xml2json)
