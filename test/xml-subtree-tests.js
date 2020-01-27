@@ -57,7 +57,7 @@ describe('xml-subtree-processor', () => {
     })
 
     it('extract subtrees with text', async () => {
-      let tree = []
+      const tree = []
 
       await xmlSubtreeProcessor(
         stream('<body><p><line>Hello</line><line>World!</line></p></body>'),
@@ -214,7 +214,7 @@ describe('xml-subtree-processor', () => {
 
       expect(tree).to.exist()
       expect(tree).to.eql({
-        line: [{ 'en': [{ '#text': 'Hello ', strong: [{ '#text': 'World!' }] }] }]
+        line: [{ en: [{ '#text': 'Hello ', strong: [{ '#text': 'World!' }] }] }]
       })
     })
 
@@ -230,8 +230,8 @@ describe('xml-subtree-processor', () => {
       expect(tree).to.exist()
       expect(tree).to.eql({
         line: [
-          { 'en': [{ '#text': 'Hello ', strong: [{ '#text': 'World!' }] }] },
-          { 'fr': [{ '#text': 'Bonjour ', strong: [{ '#text': 'tout le monde!' }] }] }
+          { en: [{ '#text': 'Hello ', strong: [{ '#text': 'World!' }] }] },
+          { fr: [{ '#text': 'Bonjour ', strong: [{ '#text': 'tout le monde!' }] }] }
         ]
       })
     })
