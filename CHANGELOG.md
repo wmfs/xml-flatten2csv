@@ -1,3 +1,65 @@
+# [1.4.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.3.0...v1.4.0) (2020-10-09)
+
+
+### 🐛 Bug Fixes
+
+* Relax EachPromise so it's less picky ([3367018](https://github.com/wmfs/xml-flatten2csv/commit/3367018d44cd2c3d9c5761e6f370d20ecb9d74e6))
+* Updated for new mkdirp ([a73505f](https://github.com/wmfs/xml-flatten2csv/commit/a73505f631eb5b0100067fb47effd12d70f4d3d0))
+
+
+### 🛠 Builds
+
+* **deps:** mkdirp 0.5.1 -> 1.0.4 ([6176f94](https://github.com/wmfs/xml-flatten2csv/commit/6176f9404eb84de5c679a79e3cdb638251ef5894))
+* **deps:** mocha   6.2.2  →  8.1.3 ([0a77b0d](https://github.com/wmfs/xml-flatten2csv/commit/0a77b0d8f1eb084b1f2632f199d9f7b8d3181348))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.6 to 5.0.0 ([8ee7721](https://github.com/wmfs/xml-flatten2csv/commit/8ee77215e99b8b1a8e9f2528cd09095162704b5c))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 5.0.0 to 5.0.1 ([b3153af](https://github.com/wmfs/xml-flatten2csv/commit/b3153af8ae6eb805d469b33191e73bf61fbf4d1a))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([746473c](https://github.com/wmfs/xml-flatten2csv/commit/746473ce216879b70cc7ac7710f3d07a7db5e672))
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.2 ([afc41a3](https://github.com/wmfs/xml-flatten2csv/commit/afc41a3e2c6eef13a8fa89a8e82ddb8085ade728))
+* **deps-dev:** bump codecov from 3.6.2 to 3.6.3 ([b84b1cb](https://github.com/wmfs/xml-flatten2csv/commit/b84b1cb5a676ecf0d4178e3852fd33c036776bf3))
+* **deps-dev:** bump codecov from 3.6.3 to 3.6.4 ([e44b1ac](https://github.com/wmfs/xml-flatten2csv/commit/e44b1ac5ccfef696827e99a185065bfcb9644771))
+* **deps-dev:** bump codecov from 3.6.4 to 3.6.5 ([6d3272d](https://github.com/wmfs/xml-flatten2csv/commit/6d3272d265eed0ac952d8f1aa9e0616976b9b89f))
+* **deps-dev:** bump codecov from 3.6.5 to 3.7.0 ([6d04921](https://github.com/wmfs/xml-flatten2csv/commit/6d04921d0d153a24aa3a9a461ef9bd3fa2cb7c52))
+* **deps-dev:** bump codecov from 3.7.0 to 3.7.1 ([83debb1](https://github.com/wmfs/xml-flatten2csv/commit/83debb1c2b709d4d2f1e9dffbcbdcd4fab5a326e))
+* **deps-dev:** bump codecov from 3.7.1 to 3.7.2 ([4dabca5](https://github.com/wmfs/xml-flatten2csv/commit/4dabca557abafa1346173f68bc60016aab24601b))
+* **deps-dev:** bump codecov from 3.7.2 to 3.8.0 ([e60dca1](https://github.com/wmfs/xml-flatten2csv/commit/e60dca14d8abab7ca9836e8802c5a57789fbeea9))
+* **deps-dev:** bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([04b02ef](https://github.com/wmfs/xml-flatten2csv/commit/04b02ef2d23be8bb03720eded205f9c951ae618e))
+* **deps-dev:** bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([b2836fb](https://github.com/wmfs/xml-flatten2csv/commit/b2836fb3cf74e7efc6bb0e0fa125fd0942ff2206))
+* **deps-dev:** bump cz-conventional-changelog from 3.0.2 to 3.1.0 ([77ae3f3](https://github.com/wmfs/xml-flatten2csv/commit/77ae3f3ccaaf703bb90c74afe65cb1691ced5cf1))
+* **deps-dev:** bump cz-conventional-changelog from 3.1.0 to 3.2.0 ([016cbcf](https://github.com/wmfs/xml-flatten2csv/commit/016cbcfceec576b9d5e00897d019fe872700b7e3))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.0 to 3.2.1 ([a5a346b](https://github.com/wmfs/xml-flatten2csv/commit/a5a346b7b511fb7561a918d59f5c05fbd658405e))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.1 to 3.3.0 ([f27cbf3](https://github.com/wmfs/xml-flatten2csv/commit/f27cbf372462a1299852e3513376788706f3471a))
+* **deps-dev:** bump nyc from 15.0.0 to 15.0.1 ([275498f](https://github.com/wmfs/xml-flatten2csv/commit/275498f66dec1f0f0229687b903cd0eba6792b34))
+* **deps-dev:** bump nyc from 15.0.1 to 15.1.0 ([7693d75](https://github.com/wmfs/xml-flatten2csv/commit/7693d7533ae5581e022d4c339f006346d4e79690))
+* **deps-dev:** bump packages ([b47d2d3](https://github.com/wmfs/xml-flatten2csv/commit/b47d2d3b6f335cc497026d35d2608f7d0169c64e))
+* **deps-dev:** bump semantic-release from 15.14.0 to 17.0.2 ([7494478](https://github.com/wmfs/xml-flatten2csv/commit/74944786ca55eb119206c65d1f724358797937c5))
+* **deps-dev:** bump semantic-release from 17.0.2 to 17.0.3 ([15170f1](https://github.com/wmfs/xml-flatten2csv/commit/15170f1b33dd5fb83b6d74cfc1b47703ae0d146e))
+* **deps-dev:** bump semantic-release from 17.0.3 to 17.0.4 ([6207388](https://github.com/wmfs/xml-flatten2csv/commit/6207388f7d952e90f62caca05ea4b9a757584b83))
+* **deps-dev:** bump semantic-release from 17.0.4 to 17.0.5 ([1bbaa31](https://github.com/wmfs/xml-flatten2csv/commit/1bbaa311b6add2c3b6e185fd48ccd8d20e7b3606))
+* **deps-dev:** bump semantic-release from 17.0.5 to 17.0.6 ([80bd080](https://github.com/wmfs/xml-flatten2csv/commit/80bd080a0a60cd590c82387dd62cc9f1a954e718))
+* **deps-dev:** bump semantic-release from 17.0.6 to 17.0.7 ([79afcd8](https://github.com/wmfs/xml-flatten2csv/commit/79afcd893d240fbe38c4340f5ccc26932395dfe6))
+* **deps-dev:** bump semantic-release from 17.0.7 to 17.0.8 ([4b3903d](https://github.com/wmfs/xml-flatten2csv/commit/4b3903d1f16508989ec0062d9da52cd9ce5ce473))
+* **deps-dev:** bump semantic-release from 17.0.8 to 17.1.0 ([07cc0f5](https://github.com/wmfs/xml-flatten2csv/commit/07cc0f5b9ce914d47aa642b085247e91d510f30d))
+* **deps-dev:** bump semantic-release from 17.1.0 to 17.1.1 ([77c7bfb](https://github.com/wmfs/xml-flatten2csv/commit/77c7bfb82600e0bcdf8d54df8381169c901e63c5))
+* **deps-dev:** bump semantic-release from 17.1.1 to 17.1.2 ([f20b2c2](https://github.com/wmfs/xml-flatten2csv/commit/f20b2c2ff18da9b973eacdf217ee6ba63945c4de))
+* **deps-dev:** bump standard from 14.3.1 to 14.3.2 ([05bce1b](https://github.com/wmfs/xml-flatten2csv/commit/05bce1b50982fbc1beccbf490c18bd3dc31702e5))
+* **deps-dev:** bump standard from 14.3.2 to 14.3.3 ([fe6bc35](https://github.com/wmfs/xml-flatten2csv/commit/fe6bc3501acda003543a6a15f30a591904795da3))
+* **deps-dev:** bump standard from 14.3.3 to 14.3.4 ([e1d2246](https://github.com/wmfs/xml-flatten2csv/commit/e1d22466d967a61bb2f44e2342c2e10feef17c01))
+* **deps-dev:** update dev dependancies ([c926f7d](https://github.com/wmfs/xml-flatten2csv/commit/c926f7dc0b1ceea076353c8327477c1e1c634b30))
+* **deps-dev:** update standard requirement from 12.0.1 to 14.3.1 ([f352f15](https://github.com/wmfs/xml-flatten2csv/commit/f352f15618153acb8fffe98b973d7838936b518c))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([ef4dce3](https://github.com/wmfs/xml-flatten2csv/commit/ef4dce3d46d3e43c80d9a66900cea20efbe9e0fa))
+* **circle:** separate lint job [ch1009] ([6975b65](https://github.com/wmfs/xml-flatten2csv/commit/6975b65b46feefaf0e6a56ff129fafa63051cbcd))
+* **circle:** use updated circle node image [skip ci] ([3d0cf69](https://github.com/wmfs/xml-flatten2csv/commit/3d0cf6938fd85a869c3e51aad97c0d645ba70868))
+
+
+### 💎 Styles
+
+* Lint fix - don't need promisify any more ([10fe4e9](https://github.com/wmfs/xml-flatten2csv/commit/10fe4e94efe1715f745a73f9b83591ecdcdb35c9))
+* standard --fix ([566e199](https://github.com/wmfs/xml-flatten2csv/commit/566e1992079c426717f08e1200ef480539a92416))
+
 # [1.3.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.2.0...v1.3.0) (2019-09-09)
 
 
