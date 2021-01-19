@@ -1,3 +1,36 @@
+# [1.5.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.4.0...v1.5.0) (2021-01-19)
+
+
+### 🛠 Builds
+
+* **deps:** bump jsonpath from 1.0.2 to 1.1.0 ([dd3c2a8](https://github.com/wmfs/xml-flatten2csv/commit/dd3c2a8acccef65531b0f1affed10ecda5c21559))
+* **deps-dev:** bump codecov from 3.8.0 to 3.8.1 ([5fc49b6](https://github.com/wmfs/xml-flatten2csv/commit/5fc49b6265fbb8868e4b3c1ce9ea99555d5c2f31))
+* **deps-dev:** bump mocha from 8.1.3 to 8.2.0 ([d0671db](https://github.com/wmfs/xml-flatten2csv/commit/d0671db866d95120f224a9adc479276aae1b3ea7))
+* **deps-dev:** bump mocha from 8.2.0 to 8.2.1 ([9c98d5b](https://github.com/wmfs/xml-flatten2csv/commit/9c98d5b82b023759b75dfae42f6f5f768e2b577a))
+* **deps-dev:** bump semantic-release from 17.1.2 to 17.2.0 ([6584658](https://github.com/wmfs/xml-flatten2csv/commit/6584658306a63d445b1b18efbe7ff3de9619c6be))
+* **deps-dev:** bump semantic-release from 17.2.0 to 17.2.1 ([9f4462e](https://github.com/wmfs/xml-flatten2csv/commit/9f4462e6cfc624fe019ad71cb1f881f20ad6fa50))
+* **deps-dev:** bump semantic-release from 17.2.1 to 17.2.2 ([67b8b4d](https://github.com/wmfs/xml-flatten2csv/commit/67b8b4de14b94b0e8b8f0bcb254f2cfa353b05a9))
+* **deps-dev:** bump semantic-release from 17.2.2 to 17.2.3 ([2ba9ea2](https://github.com/wmfs/xml-flatten2csv/commit/2ba9ea25ebb49931a823f7924eb15ec661b85237))
+* **deps-dev:** bump semantic-release from 17.2.3 to 17.2.4 ([8ff416c](https://github.com/wmfs/xml-flatten2csv/commit/8ff416c75ed01cd793e771fff35e2eaa8e7b7e27))
+* **deps-dev:** bump semantic-release from 17.2.4 to 17.3.0 ([4a0c3ba](https://github.com/wmfs/xml-flatten2csv/commit/4a0c3ba83af20307271d04b4e96d22199d8d8d44))
+* **deps-dev:** bump semantic-release from 17.3.0 to 17.3.1 ([b5cf5d0](https://github.com/wmfs/xml-flatten2csv/commit/b5cf5d084fa468f16a075692a1528fe21eb3cdc9))
+* **deps-dev:** bump semantic-release from 17.3.1 to 17.3.2 ([8285855](https://github.com/wmfs/xml-flatten2csv/commit/82858552dce26d207a5e850063502ff0e7e63159))
+* **deps-dev:** bump semantic-release from 17.3.2 to 17.3.3 ([90bb7fe](https://github.com/wmfs/xml-flatten2csv/commit/90bb7fe82b9947c17538054624073d087a038649))
+* **deps-dev:** bump standard from 14.3.4 to 15.0.0 ([1529c15](https://github.com/wmfs/xml-flatten2csv/commit/1529c15d41a4fb78c3932fe47e0b1110a2e74e3d))
+* **deps-dev:** bump standard from 15.0.0 to 15.0.1 ([23bbf47](https://github.com/wmfs/xml-flatten2csv/commit/23bbf4757171f20595278dd85ca968daab52023d))
+* **deps-dev:** bump standard from 15.0.1 to 16.0.0 ([30c0d53](https://github.com/wmfs/xml-flatten2csv/commit/30c0d5352782f9c487a7b4f7c5c66a21cc35c01b))
+* **deps-dev:** bump standard from 16.0.0 to 16.0.1 ([91bf9a4](https://github.com/wmfs/xml-flatten2csv/commit/91bf9a4318d56b11eabeb781932c192adc2a9169))
+* **deps-dev:** bump standard from 16.0.1 to 16.0.2 ([63b3529](https://github.com/wmfs/xml-flatten2csv/commit/63b352995e471c66060019ad46119cedbfd045b1))
+* **deps-dev:** bump standard from 16.0.2 to 16.0.3 ([79975b9](https://github.com/wmfs/xml-flatten2csv/commit/79975b946d4a0d07e7906a29fd96dcd871e088c8))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([3b96864](https://github.com/wmfs/xml-flatten2csv/commit/3b96864ee1411022b300aec8d51d15d744f32c1a))
+* **circle:** cache dependencies [ch2770] ([475bfcf](https://github.com/wmfs/xml-flatten2csv/commit/475bfcf61cdf8efaebd1dfc369d775d673537255))
+* **circle:** separate linting job [ch1009] ([2e2a0c3](https://github.com/wmfs/xml-flatten2csv/commit/2e2a0c3cd3e764a3fca69132807189b14f388d27))
+* **circle:** update build environment variable context name [ch2771] ([8379ef1](https://github.com/wmfs/xml-flatten2csv/commit/8379ef124cf8e3be103a94781a5b660dda5c1a6a))
+
 # [1.4.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.3.0...v1.4.0) (2020-10-09)
 
 
