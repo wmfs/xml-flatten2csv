@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.6.0...v1.7.0) (2021-05-10)
+
+
+### 🛠 Builds
+
+* **deps:** use master branch for wmfs/jsonpath [ch6167] ([f27354a](https://github.com/wmfs/xml-flatten2csv/commit/f27354a305bc709781fe15bba310870ca53c239b))
+
 # [1.6.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.5.0...v1.6.0) (2021-05-10)
 
 
