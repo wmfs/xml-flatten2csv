@@ -1,3 +1,29 @@
+# [1.6.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.5.0...v1.6.0) (2021-05-10)
+
+
+### 🛠 Builds
+
+* **deps:** bump jsonpath from 1.1.0 to 1.1.1 ([458461b](https://github.com/wmfs/xml-flatten2csv/commit/458461b6d408dad3c10e4a27420a1eceaae6c5d6))
+* **deps-dev:** bump chai from 4.2.0 to 4.3.0 ([f085e0c](https://github.com/wmfs/xml-flatten2csv/commit/f085e0cafebeb63ae0894c211fb529428e29a18d))
+* **deps-dev:** bump chai from 4.3.0 to 4.3.1 ([7d4d392](https://github.com/wmfs/xml-flatten2csv/commit/7d4d392ee5f8f1490c60d6a72f8f291e4204637d))
+* **deps-dev:** bump chai from 4.3.1 to 4.3.2 ([5ff73af](https://github.com/wmfs/xml-flatten2csv/commit/5ff73af4a1b003adcbe0b115c0208cef67d5b3ac))
+* **deps-dev:** bump chai from 4.3.2 to 4.3.3 ([a0718b2](https://github.com/wmfs/xml-flatten2csv/commit/a0718b208873735bc1abdc3bcc46c5a00802aed4))
+* **deps-dev:** bump chai from 4.3.3 to 4.3.4 ([c0353bb](https://github.com/wmfs/xml-flatten2csv/commit/c0353bb837b08409987bc38f3eeab641459155a9))
+* **deps-dev:** bump codecov from 3.8.1 to 3.8.2 ([3d5879e](https://github.com/wmfs/xml-flatten2csv/commit/3d5879e72e096110f446dc0db1c472cfeb4cfc82))
+* **deps-dev:** bump mocha from 8.2.1 to 8.3.0 ([947f47a](https://github.com/wmfs/xml-flatten2csv/commit/947f47a9d881fb7644638dde4858cd0af7ad9d73))
+* **deps-dev:** bump mocha from 8.3.0 to 8.3.1 ([4f232a3](https://github.com/wmfs/xml-flatten2csv/commit/4f232a368f507ebbca033960bd934a0a07db566c))
+* **deps-dev:** bump mocha from 8.3.1 to 8.3.2 ([b414641](https://github.com/wmfs/xml-flatten2csv/commit/b4146414d8cf34a93027b2995eec08d517c3498c))
+* **deps-dev:** bump mocha from 8.3.2 to 8.4.0 ([defae30](https://github.com/wmfs/xml-flatten2csv/commit/defae30ae5ec05cfb624b8d2d6db16abba134918))
+* **deps-dev:** bump semantic-release from 17.3.3 to 17.3.4 ([8d0b319](https://github.com/wmfs/xml-flatten2csv/commit/8d0b3197384acb119b3f3e89f82bfc0acbb88c08))
+* **deps-dev:** bump semantic-release from 17.3.4 to 17.3.5 ([0fcec74](https://github.com/wmfs/xml-flatten2csv/commit/0fcec745ef58d9e7b7d3a497aacdde0f3ffd62a5))
+* **deps-dev:** bump semantic-release from 17.3.5 to 17.3.6 ([ecb569d](https://github.com/wmfs/xml-flatten2csv/commit/ecb569d88d23e56e30ef8fe6e62b9dcd61a5c3ea))
+* **deps-dev:** bump semantic-release from 17.3.6 to 17.3.7 ([b3e2f14](https://github.com/wmfs/xml-flatten2csv/commit/b3e2f14c4c4955b0b788dee8eb2d5dec8ef09eff))
+* **deps-dev:** bump semantic-release from 17.3.7 to 17.3.8 ([6819c96](https://github.com/wmfs/xml-flatten2csv/commit/6819c96704687b102f8b781b1cbc4df57735a9d7))
+* **deps-dev:** bump semantic-release from 17.3.8 to 17.3.9 ([9b21111](https://github.com/wmfs/xml-flatten2csv/commit/9b2111175956342d366ba6acd94e344d719caa5e))
+* **deps-dev:** bump semantic-release from 17.3.9 to 17.4.0 ([2bd55fb](https://github.com/wmfs/xml-flatten2csv/commit/2bd55fbe65f7a8075718d7f2434d19a41e1e5eb3))
+* **deps-dev:** bump semantic-release from 17.4.0 to 17.4.1 ([4d6954d](https://github.com/wmfs/xml-flatten2csv/commit/4d6954d62193ee57be6aac0d52063defae9121ed))
+* **deps-dev:** bump semantic-release from 17.4.1 to 17.4.2 ([b29481d](https://github.com/wmfs/xml-flatten2csv/commit/b29481df2023bd74599d36b82ea687e38c62c5f1))
+
 # [1.5.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.4.0...v1.5.0) (2021-01-19)
 
 
