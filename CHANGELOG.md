@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.7.0...v1.8.0) (2021-05-11)
+
+
+### 🛠 Builds
+
+* **deps:** revert jsonpath to 1.1.1 [ch6167] ([461132a](https://github.com/wmfs/xml-flatten2csv/commit/461132a473b092c1acca2049ac503fe6f1aefe3b))
+
 # [1.7.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.6.0...v1.7.0) (2021-05-10)
 
 
