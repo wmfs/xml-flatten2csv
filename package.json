@@ -21,7 +21,7 @@
   },
   "main": "./lib/index.js",
   "dependencies": {
-    "jsonpath": "wmfs/jsonpath#master",
+    "jsonpath": "1.1.1",
     "mkdirp": "1.0.4",
     "sax": "1.2.4"
   },
