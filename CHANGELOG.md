@@ -1,3 +1,58 @@
+# [1.9.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.8.0...v1.9.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump codecov from 3.8.2 to 3.8.3 ([a5ad571](https://github.com/wmfs/xml-flatten2csv/commit/a5ad5716591dfc51f663a5daa8015df610ad933e))
+* **deps-dev:** bump mocha from 8.4.0 to 9.0.0 ([be9d76c](https://github.com/wmfs/xml-flatten2csv/commit/be9d76c9a230f7aea71ecf4d87dacca1dd695af5))
+* **deps-dev:** bump mocha from 9.0.0 to 9.0.1 ([a5bd37a](https://github.com/wmfs/xml-flatten2csv/commit/a5bd37a9eb5858dd205c1dc7c9835db3cc514b88))
+* **deps-dev:** bump mocha from 9.0.1 to 9.0.2 ([88a338a](https://github.com/wmfs/xml-flatten2csv/commit/88a338afa2055bbf0930102f3e097c69af91d154))
+* **deps-dev:** bump mocha from 9.0.2 to 9.0.3 ([730f2d3](https://github.com/wmfs/xml-flatten2csv/commit/730f2d3a1365cfdf00a6bff2c14d0057b2177555))
+* **deps-dev:** bump semantic-release from 17.4.2 to 17.4.3 ([987df61](https://github.com/wmfs/xml-flatten2csv/commit/987df61a510e1e06beb31db86bd58b2c615c0e3b))
+* **deps-dev:** bump semantic-release from 17.4.3 to 17.4.4 ([e481ac3](https://github.com/wmfs/xml-flatten2csv/commit/e481ac37b20ee40eaff6faeb40a8cff31d4981f5))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6 ([93acc7e](https://github.com/wmfs/xml-flatten2csv/commit/93acc7eed377a5dce50bb4464a5eb3a4aa849739))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.2 ([70e17b8](https://github.com/wmfs/xml-flatten2csv/commit/70e17b8fed53e9ba4b107cb73245994ef91f360a))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v10 ([9cc0f25](https://github.com/wmfs/xml-flatten2csv/commit/9cc0f25cad6d2891216db781ece18fea51b9427c))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v9.0.1 ([26d8304](https://github.com/wmfs/xml-flatten2csv/commit/26d830456f62784ad8f3e054620b8340e141768d))
+* **deps-dev:** update dependency chai to v4.3.5 ([ddec83f](https://github.com/wmfs/xml-flatten2csv/commit/ddec83f5e9fe3ecdb1c8dfd5903397a682d2bf89))
+* **deps-dev:** update dependency chai to v4.3.6 ([458c480](https://github.com/wmfs/xml-flatten2csv/commit/458c480b2ef3aa56853a79c2c356977959e524dc))
+* **deps-dev:** update dependency chai to v4.3.7 ([deb722e](https://github.com/wmfs/xml-flatten2csv/commit/deb722e416f596f83f43ee9e85009ba00ae616de))
+* **deps-dev:** update dependency mocha to v10 ([3b23370](https://github.com/wmfs/xml-flatten2csv/commit/3b2337061024235f15cf245c374960ad4e7bd68b))
+* **deps-dev:** update dependency mocha to v10.1.0 ([89299c1](https://github.com/wmfs/xml-flatten2csv/commit/89299c1588ddd8e002e7acf14e9f551813c6b68d))
+* **deps-dev:** update dependency mocha to v10.2.0 ([3e6e690](https://github.com/wmfs/xml-flatten2csv/commit/3e6e6906291bbd5443251bb8c10dfa20bc324208))
+* **deps-dev:** update dependency mocha to v9.1.0 ([07618bb](https://github.com/wmfs/xml-flatten2csv/commit/07618bb59f5efeb4f216f7f4d87b85e808fe0b02))
+* **deps-dev:** update dependency mocha to v9.1.1 ([813608f](https://github.com/wmfs/xml-flatten2csv/commit/813608fe1eb554f536b822285988e8b12e7d1465))
+* **deps-dev:** update dependency mocha to v9.1.2 ([acbb39f](https://github.com/wmfs/xml-flatten2csv/commit/acbb39f43ba58887de514b91c63d765dc889465c))
+* **deps-dev:** update dependency mocha to v9.1.3 ([42afbb1](https://github.com/wmfs/xml-flatten2csv/commit/42afbb106a324524c66c8f5f8dbe8339c8ecb31b))
+* **deps-dev:** update dependency mocha to v9.1.4 ([c150378](https://github.com/wmfs/xml-flatten2csv/commit/c150378a1642705914de58497eb22af9651519c7))
+* **deps-dev:** update dependency mocha to v9.2.0 ([9ecf01c](https://github.com/wmfs/xml-flatten2csv/commit/9ecf01cf070b515aa34bf9e4347eaae15afacd17))
+* **deps-dev:** update dependency mocha to v9.2.1 ([7d95090](https://github.com/wmfs/xml-flatten2csv/commit/7d9509034aaa9c208d6aa261852c39140b326bb2))
+* **deps-dev:** update dependency mocha to v9.2.2 ([65117f1](https://github.com/wmfs/xml-flatten2csv/commit/65117f11eb1a1f4ca7e81d1dff496457bfffdbe3))
+* **deps-dev:** update dependency semantic-release to v17.4.5 ([a4cec73](https://github.com/wmfs/xml-flatten2csv/commit/a4cec737fc1dd7ed5b41f34fcd75eef6d517c667))
+* **deps-dev:** update dependency semantic-release to v17.4.6 ([b189185](https://github.com/wmfs/xml-flatten2csv/commit/b18918570dc4d5b85e564b639033e3a12b310f41))
+* **deps-dev:** update dependency semantic-release to v17.4.7 ([01ab2c8](https://github.com/wmfs/xml-flatten2csv/commit/01ab2c8d580c97602f3c2fc5ede18b4a137678f1))
+* **deps-dev:** update dependency semantic-release to v18 ([5466250](https://github.com/wmfs/xml-flatten2csv/commit/5466250c58f9ce0e711b6a2cd47f03337870dd29))
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([8c5faec](https://github.com/wmfs/xml-flatten2csv/commit/8c5faecd0912dbb934ab9f74b3b66604b3894808))
+* **deps-dev:** update dependency semantic-release to v19 ([76a12a0](https://github.com/wmfs/xml-flatten2csv/commit/76a12a0d89943a8f75fa096dd2fbe4a042b363af))
+* **deps-dev:** update dependency semantic-release to v19.0.3 ([f4e2e3a](https://github.com/wmfs/xml-flatten2csv/commit/f4e2e3a59b1b0e16e45f8882f0d8b5353674c147))
+* **deps-dev:** update dependency semantic-release to v19.0.5 ([21df7e3](https://github.com/wmfs/xml-flatten2csv/commit/21df7e3846262e58017884d82664368c13c04cbb))
+* **deps-dev:** update dependency semantic-release to v20 ([8328cc4](https://github.com/wmfs/xml-flatten2csv/commit/8328cc44ebfd977c8c4b86f7eccd403dddb3d42e))
+* **deps-dev:** update dependency semantic-release to v20.0.1 ([d397115](https://github.com/wmfs/xml-flatten2csv/commit/d3971151690cd7c7bb9b311519885298bbabc07b))
+* **deps-dev:** update dependency semantic-release to v20.0.2 ([038e733](https://github.com/wmfs/xml-flatten2csv/commit/038e73399c40a8194432f03645f380b2bcc3c2ea))
+* **deps-dev:** update dependency semantic-release to v20.0.3 ([810c44f](https://github.com/wmfs/xml-flatten2csv/commit/810c44f8f8eb8c9b61806d4f292888b46ac9dc87))
+* **deps-dev:** update dependency semantic-release to v20.0.4 ([f8fc15b](https://github.com/wmfs/xml-flatten2csv/commit/f8fc15b01a11774e1109b4c79544d6df392caf31))
+* **deps-dev:** update dependency semantic-release to v20.1.0 ([39655e8](https://github.com/wmfs/xml-flatten2csv/commit/39655e8dd25ed9336255c57c7b5ea4eef3dc9bdf))
+* **deps-dev:** update dependency semantic-release to v20.1.1 ([f284b3e](https://github.com/wmfs/xml-flatten2csv/commit/f284b3e848c9805c0477e72a85171c715c3fb907))
+* **deps-dev:** update dependency standard to v16.0.4 ([59a8ddf](https://github.com/wmfs/xml-flatten2csv/commit/59a8ddfffdc4aa5ccd9c87dc19634d69e00e8b82))
+* **deps-dev:** update dependency standard to v17 ([b72c25e](https://github.com/wmfs/xml-flatten2csv/commit/b72c25eef404180b495babb40b50c84929abdff1))
+* **deps-dev:** update semantic-release monorepo ([eeaab3e](https://github.com/wmfs/xml-flatten2csv/commit/eeaab3e715504b9cbd9c493bd66775aafdb1659d))
+* **deps:** update dependency mkdirp to v2 ([a63e7b6](https://github.com/wmfs/xml-flatten2csv/commit/a63e7b6c2ab7df68feae4ed4218131370efbcb68))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([dfc0776](https://github.com/wmfs/xml-flatten2csv/commit/dfc077661f696affd75f806696d56b3e5a36e455))
+
 # [1.8.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.7.0...v1.8.0) (2021-05-11)
 
 
