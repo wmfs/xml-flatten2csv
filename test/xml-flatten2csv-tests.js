@@ -108,7 +108,7 @@ describe('xmlFlatten2csv', () => {
         csvPath: outputFile,
         rootXMLElement: root,
         pivotPath: pivot,
-        headerMap: headerMap,
+        headerMap,
         transform: transformFn,
         namespace: 'strip',
         xmllang: 'wrap'
