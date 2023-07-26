@@ -1,3 +1,25 @@
+# [1.10.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.9.0...v1.10.0) (2023-07-26)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([eb4c322](https://github.com/wmfs/xml-flatten2csv/commit/eb4c322cd7c4df58a17bea8f776510555b3fc3ed))
+* **deps-dev:** update dependency semantic-release to v20.1.3 ([d376686](https://github.com/wmfs/xml-flatten2csv/commit/d3766862b8d4fc669edd379be551c1f06beecc24))
+* **deps-dev:** update dependency semantic-release to v21 ([b7d95b9](https://github.com/wmfs/xml-flatten2csv/commit/b7d95b979c98ec3b280057d4147924986b987c96))
+* **deps-dev:** update dependency semantic-release to v21.0.1 ([16bbc22](https://github.com/wmfs/xml-flatten2csv/commit/16bbc2265e251eebb9bf3360670cc4db23ab865c))
+* **deps-dev:** update dependency semantic-release to v21.0.2 ([60703e2](https://github.com/wmfs/xml-flatten2csv/commit/60703e292764a03d9298c83f5ba47653c97c2728))
+* **deps-dev:** update dependency semantic-release to v21.0.3 ([493d6ba](https://github.com/wmfs/xml-flatten2csv/commit/493d6bac4de02cd9780b0d7da5181ed6f3d9e9e8))
+* **deps-dev:** update dependency semantic-release to v21.0.5 ([b4805d4](https://github.com/wmfs/xml-flatten2csv/commit/b4805d41fd2b93341d342e85b362f22e0f5f2b29))
+* **deps-dev:** update dependency semantic-release to v21.0.6 ([ac2aa2b](https://github.com/wmfs/xml-flatten2csv/commit/ac2aa2bfe6562eda14ac01bfad72cee1d042e6f6))
+* **deps-dev:** update dependency semantic-release to v21.0.7 ([c0d5028](https://github.com/wmfs/xml-flatten2csv/commit/c0d50281d3c12c6a7ae10edc07a76a7bdca0a072))
+* **deps-dev:** update dependency standard to v17.1.0 ([c522e76](https://github.com/wmfs/xml-flatten2csv/commit/c522e7609aef25b843b8d9557042e52421727ac6))
+* **deps:** update dependency mkdirp to v2.1.6 ([ab46e1a](https://github.com/wmfs/xml-flatten2csv/commit/ab46e1a2f6867fa8f30874ccfd8786791ac2802c))
+
+
+### 📦 Code Refactoring
+
+* standard code styling ([33c3747](https://github.com/wmfs/xml-flatten2csv/commit/33c3747e7f3a08b2e1754a292af805460153751b))
+
 # [1.9.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.8.0...v1.9.0) (2023-03-13)
 
 
