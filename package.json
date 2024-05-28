@@ -23,7 +23,7 @@
   "dependencies": {
     "jsonpath": "1.1.1",
     "mkdirp": "2.1.6",
-    "sax": "1.2.4"
+    "sax": "1.4.1"
   },
   "devDependencies": {
     "chai": "4.4.1",
