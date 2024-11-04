@@ -1,3 +1,5 @@
+# [1.12.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.11.0...v1.12.0) (2024-11-04)
+
 # [1.11.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.10.0...v1.11.0) (2024-11-04)
 
 # [1.10.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.9.0...v1.10.0) (2023-07-26)
