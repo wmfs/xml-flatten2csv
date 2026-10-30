@@ -1,3 +1,21 @@
+## [1.13.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.12.1...v1.13.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([6cbba3b](https://github.com/wmfs/xml-flatten2csv/commit/6cbba3b44c632bc796d5784f16a09bf388515abc))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#369](https://github.com/wmfs/xml-flatten2csv/issues/369)) ([e0fc9eb](https://github.com/wmfs/xml-flatten2csv/commit/e0fc9eb7721545aa40469d3b3caf65c20f519ee9))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#374](https://github.com/wmfs/xml-flatten2csv/issues/374)) ([75e016c](https://github.com/wmfs/xml-flatten2csv/commit/75e016ce819ef619a86e0410aba15d3aa0f14150))
+* **deps-dev:** update dependency mocha to v12 ([#370](https://github.com/wmfs/xml-flatten2csv/issues/370)) ([ce876a0](https://github.com/wmfs/xml-flatten2csv/commit/ce876a03a3b94a8c9a75cd9c3b861bd51b78b4c2))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#371](https://github.com/wmfs/xml-flatten2csv/issues/371)) ([12bffa2](https://github.com/wmfs/xml-flatten2csv/commit/12bffa2c459d3b98bcba40ccfb30aaf14b826b98))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#372](https://github.com/wmfs/xml-flatten2csv/issues/372)) ([8e202de](https://github.com/wmfs/xml-flatten2csv/commit/8e202de74116e0effc881e93893bd2f53cae3398))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#373](https://github.com/wmfs/xml-flatten2csv/issues/373)) ([5120363](https://github.com/wmfs/xml-flatten2csv/commit/51203639a8c7ff47c7ba08d91602c8d88f4e317a))
+* **deps:** update dependency jsonpath to v1.3.0 [security] ([#344](https://github.com/wmfs/xml-flatten2csv/issues/344)) ([429162e](https://github.com/wmfs/xml-flatten2csv/commit/429162ebad4662fb57162bae583e132e052ac762))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#376](https://github.com/wmfs/xml-flatten2csv/issues/376)) ([47955ae](https://github.com/wmfs/xml-flatten2csv/commit/47955ae6e798130bfe6297397e210daae5330db8))
+* use shared renovate preset [sc-34117] ([#375](https://github.com/wmfs/xml-flatten2csv/issues/375)) ([78813b1](https://github.com/wmfs/xml-flatten2csv/commit/78813b19e10972512226a30323b5fc679dcd4735))
+
 ## [1.12.1](https://github.com/wmfs/xml-flatten2csv/compare/v1.12.0...v1.12.1) (2026-08-13)
 
 # [1.12.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.11.0...v1.12.0) (2024-11-04)
