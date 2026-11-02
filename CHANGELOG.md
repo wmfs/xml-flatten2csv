@@ -1,3 +1,9 @@
+## [1.14.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.13.0...v1.14.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency sax to v1.6.1 ([#338](https://github.com/wmfs/xml-flatten2csv/issues/338)) ([f2277ce](https://github.com/wmfs/xml-flatten2csv/commit/f2277ce17639f5b9e82e3a58c83fa3b96b4745ad))
+
 ## [1.13.0](https://github.com/wmfs/xml-flatten2csv/compare/v1.12.1...v1.13.0) (2026-10-30)
 
 ### Build system dependencies :hammer:
